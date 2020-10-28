@@ -692,11 +692,11 @@ a:hover, a:active, a:focus {
 .content table:not(.rf-tablegrid) th {
     border: 3px solid #fff;
     padding: 10px;
-    background: #D4EAE4;
+    background: transparent;
 }
 
 .content table:not(.rf-tablegrid) {
-    border: 1px solid #F37731;
+    border: 1px solid transparent;
     margin-bottom: 20px;
 }
 
@@ -775,10 +775,10 @@ a:hover, a:active, a:focus {
 
 .content_type_clase_majesticdemo .slide_main input:focus,
 .content_type_clase_majesticdemo .slide_main .img-input-container:focus {
-    border-top-color: #10A0C6;
-    border-right-color: #10A0C6;
-    border-bottom-color: #10A0C6;
-    border-left-color: #10A0C6;
+    border-top-color: #dbc9c9;
+    border-right-color: #dbc9c9;
+    border-bottom-color: #dbc9c9;
+    border-left-color: #dbc9c9;
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     -moz-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) inset, 0px 0px 8px rgba(133, 200, 57, 0);
