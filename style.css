@@ -847,3 +847,32 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	height: 100px !important;
 	padding: 0;
 }
+
+.slide.crosswords .enunciados .enunciado {
+    padding: 0;
+    font-size: 1.6rem;
+    line-height: 2rem;
+}
+
+.slide.crosswords .enunciados .enunciado:before {
+    content: counter(bck-li-counter)".";
+    position: absolute;
+    top: -3px;
+    left: -24px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background: transparent;
+    color: #333;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5rem;
+}
