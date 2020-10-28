@@ -3,6 +3,37 @@
 
 /* General */
 
+#indice .units ul li {
+    background: #923538;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 0;
+    margin-bottom: 8px;
+    padding: 8px 16px;
+
+}
+
+#indice .units ul li a .title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    margin: -21px 0 0 35px;
+    line-height: 18px;
+    display: block;
+}
+
+body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
+body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
+    color: #923538;
+}
+
+#indice .units ul li.active:not(.disabled), 
+body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
+#indice .units ul li:focus:not(.disabled) {
+    background: transparent;
+    border: 2px solid #923538;
+}
+
 	body.content_type_clase_majesticdemo {
 		font-size: 1.8rem;
 	}
