@@ -207,7 +207,7 @@
 
 /* Navbar */
 	.navbar-bottom {
-		background: #132E4C;
+		background: #f3b6b8;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
@@ -295,7 +295,7 @@
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #007FA3;
+		background: #BB007C;
 		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
@@ -491,7 +491,7 @@
 	   -moz-border-radius: 10px;
 	        border-radius: 10px;
 	background: #fff;
-	padding: 6px;
+	padding: 15px;
 }
 
 .bck-box .bck-content p:last-child {
