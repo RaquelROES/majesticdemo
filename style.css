@@ -252,7 +252,7 @@ a:hover, a:active, a:focus {
 
 /* Navbar */
 	.navbar-bottom {
-		background: #ffd1d2;
+		background: #dbc9c9;
 		padding-left: 100px;
 		padding-right: 100px;
 	}
@@ -340,7 +340,7 @@ a:hover, a:active, a:focus {
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #BB007C;
+		background: #923538;
 		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
