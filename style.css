@@ -96,7 +96,7 @@ a:hover, a:active, a:focus {
 	}
 
 	.content_type_clase_majesticdemo #actividad .content .header .title {
-		margin: -40px 0 20px;
+		margin: 0px 0 20px;
 		background: transparent;
 		padding: 20px 97px;
 	}
@@ -106,9 +106,10 @@ a:hover, a:active, a:focus {
     background: url(imagenes/logomajestic.png);
     padding: 55px 90px;
     position: absolute;
-    right: 22px;
+    right: 50px;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: -30px;
 }
 
 	.content_type_clase_majesticdemo #actividad .content .slide-concatenate .header .title {
@@ -698,7 +699,7 @@ a:hover, a:active, a:focus {
 #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
 #actividad .workspace.ordenar .js-rank-item {
     border-width: 2px;
-    border-color: #10A0C6;
+    border-color: #923538;
     border-style: solid;
     background: #fff;
 }
