@@ -876,3 +876,14 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
     text-align: center;
     line-height: 2.5rem;
 }
+
+#actividad .workspace.memory .front {
+    z-index: 2;
+    width: 120px;
+    height: 140px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #d8d8d8;
+    background: #fff url(/imagenes/favicon.png) center center / 50px auto no-repeat;
+    transition: all .5s ease;
+}
