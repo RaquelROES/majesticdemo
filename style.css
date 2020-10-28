@@ -40,6 +40,14 @@ a:hover, a:active, a:focus {
     text-decoration: none;
 }
 
+.btn-primary, .btn-primary.disabled {
+	color: #fff;
+    background-color: #923538;
+    border-color: transparent;
+    opacity: 1;
+    border-radius: 0;
+}
+
 	body.content_type_clase_majesticdemo {
 		font-size: 1.8rem;
 	}
