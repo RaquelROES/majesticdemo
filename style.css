@@ -59,7 +59,7 @@
 	.content_type_clase_majesticdemo #actividad .content .header .title:before {
     content: " ";
     background: url(imagenes/logomajestic.png);
-    padding: 30px 64px;
+    padding: 55px 90px;
     position: absolute;
     right: 22px;
     background-size: contain;
