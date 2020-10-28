@@ -389,7 +389,7 @@ a:hover, a:active, a:focus {
 
 .btn-danger, .btn-danger[disabled] {
     color: #fff;
-    background-color: #fc4237;
+    background-color: #923538;
     border-color: transparent;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -403,6 +403,47 @@ a:hover, a:active, a:focus {
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
+}
+
+.btn-primary {
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn-primary:not([disabled]):hover, 
+.btn-primary:not([disabled]):focus, 
+.btn-primary:not([disabled]):active, 
+.btn-primary.active, 
+.open .dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #be8889;
+    opacity: 1;
+    border-color: transparent;
+}
+
+.btn-solution, 
+.btn-solution.disabled, 
+.btn-solution[disabled], 
+.btn-next, 
+.btn-next.disabled, 
+.btn-next[disabled] {
+	color: #fff;
+    background-color: #0051a0;
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.btn-solution:hover, 
+.btn-solution:focus, 
+.btn-solution:active, 
+.btn-next:hover, 
+.btn-next:focus, 
+.btn-next:active, 
+.open .dropdown-toggle.btn-solution {
+    color: #fff;
+    background-color: #5e91c3;
+    border-color: transparent;
 }
 
 #actividad .content .review .attemps span {
