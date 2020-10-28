@@ -381,6 +381,46 @@ a:hover, a:active, a:focus {
 		background: linear-gradient(to left, #132E4C, transparent);
 	}
 
+
+/**/
+
+
+/*BOTONERA ACTIVIDADES*/
+
+.btn-danger, .btn-danger[disabled] {
+    color: #fff;
+    background-color: #fc4237;
+    border-color: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.btn-primary[disabled], .btn-primary[disabled]:focus {
+    color: #fff;
+    background-color: #3ac62a;
+    border-color: transparent;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+#actividad .content .review .attemps span {
+    width: 35px;
+    height: 35px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #923538;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 6px 12px;
+    margin: 0 3px;
+    display: inline-block;
+    line-height: 24px;
+}
+
 /**/
 
 /*TITULO 1*/
