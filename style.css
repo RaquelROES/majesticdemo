@@ -889,3 +889,9 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
     background: #fff url(imagenes/favicon.png) center center / 50px auto no-repeat;
     transition: all .5s ease;
 }
+
+.rf-wordcontainer li .index {
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
