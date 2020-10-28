@@ -337,7 +337,7 @@ a:hover, a:active, a:focus {
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		background: rgb(142, 206, 224);
+		background: #923538;
 		color: transparent;
 	}
 	#bottom-navigator li.active {
