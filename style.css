@@ -9,7 +9,7 @@
     -moz-border-radius: 18px;
     border-radius: 0;
     margin-bottom: 8px;
-    padding: 8px 16px;
+    padding: 4px 8px;
 
 }
 
@@ -32,6 +32,12 @@ body:not(.isTablet) #indice .units ul li:hover:not(.disabled),
 #indice .units ul li:focus:not(.disabled) {
     background: transparent;
     border: 2px solid #923538;
+}
+
+a:hover, a:active, a:focus {
+    outline: 0;
+    color: #923538;
+    text-decoration: none;
 }
 
 	body.content_type_clase_majesticdemo {
