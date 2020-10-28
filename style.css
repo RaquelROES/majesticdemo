@@ -475,7 +475,9 @@ a:hover, a:active, a:focus {
 /**/
 
 /*Textarea*/
-
+.shortanswer-container textarea:focus, 
+.shortanswer-container input:focus, 
+.shortanswer-container .preview:focus
 .form-control:focus, .form-control:focus-within {
     border-top-color: #923538a1;
     border-right-color: #923538a1;
