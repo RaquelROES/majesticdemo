@@ -1099,7 +1099,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title h3,
 		.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title h3,
 		.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-			text-align: left;
+			text-align: center;
 			border-top: 2px solid;
    		 	padding-top: 10px;
 		}
@@ -1195,7 +1195,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/* Cambios en el logo */
 	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background-image: url(imagenes/Cenefas_EA_1_6_1_03.png) center center;
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_03.png);
 	}
 /*--*/
 
@@ -1282,7 +1282,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    	padding: 15px 28px;
 		}
 		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-			text-align: left;
+			text-align: center;
 			border-top: 2px solid;
    		 	padding-top: 10px;
 		}
