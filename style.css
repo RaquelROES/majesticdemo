@@ -1255,4 +1255,25 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 /*--*/
 
-/* */
+/* --- Coursetag materias troncales ---*/
+/*
+
+	/*Cambio de colores*/
+	:root .coursetag_fisica1 {
+		--colorppal: #772C91;
+	}
+	.coursetag_fisica1 .shortanswer-container textarea:focus, 
+	.coursetag_fisica1 .shortanswer-container input:focus, 
+	.coursetag_fisica1 .shortanswer-container .preview:focus
+	.coursetag_fisica1 .form-control:focus,
+	.coursetag_fisica1 .form-control:focus-within {
+	    border-top-color: #772C91a1;
+	    border-right-color: #772C91a1;
+	    border-bottom-color: #772C91a1;
+	    border-left-color: #772C91a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Fisica_1.png);
+	}
