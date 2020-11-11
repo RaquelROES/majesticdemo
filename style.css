@@ -1100,6 +1100,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title h3,
 		.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
 			text-align: left;
+			border-top: 2px solid;
+   		 	padding-top: 10px;
 		}
 	}
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before,
@@ -1269,16 +1271,21 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    display: flex;
 	}
 	@media (max-width: 750px) {
-	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	    flex-flow: column-reverse;
-	}
-	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
-    	margin: 0 auto;
-	}
-	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title {
-    	padding: 15px 28px;
-	}
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title {
+		    display: flex;
+		    flex-flow: column-reverse;
+		}
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    	margin: 0 auto;
+		}
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title {
+	    	padding: 15px 28px;
+		}
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+			text-align: left;
+			border-top: 2px solid;
+   		 	padding-top: 10px;
+		}
 	}
 	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
 		content: " ";
