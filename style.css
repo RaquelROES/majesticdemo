@@ -1174,8 +1174,9 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title h3,
 	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title h3,
 	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+		margin-left: 0;
+    	text-align: left;
+    	margin-top: 10px;
 	}
 /*--*/
 
@@ -1198,7 +1199,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/* Cambios en el logo*/
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background: url(imagenes/Cenefas_EA_1_6_01.png) center center;
+	    background-image: url(imagenes/Cenefas_EA_1_6_01.png);
 	}
 /*--*/
 
@@ -1220,7 +1221,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/* Cambios en el logo */
 	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background: url(imagenes/Cenefas_EA_1_6_02.png) center center;
+	    background-image: url(imagenes/Cenefas_EA_1_6_02.png);
 	}
 /*--*/
 
@@ -1242,7 +1243,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/* Cambios en el logo */
 	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background: url(imagenes/Cenefas_EA_1_6_1_03.png) center center;
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_03.png) center center;
 	}
 /*--*/
 
@@ -1264,7 +1265,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/* Cambios en el logo */
 	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background: url(imagenes/Cenefas_EA_1_6_1_04.png) center center;
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_04.png);
 	}
 /*--*/
 
@@ -1286,7 +1287,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/* Cambios en el logo */
 	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background: url(imagenes/Cenefas_EA_1_6_1_05.png) center center;
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_05.png);
 	}
 /*--*/
 
@@ -1308,6 +1309,6 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 	/* Cambios en el logo */
 	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    background: url(imagenes/Cenefas_EA_1_6_1_06.png) center center;
+	    background-image: url(imagenes/Cenefas_EA_1_6_1_06.png);
 	}
 /*--*/
