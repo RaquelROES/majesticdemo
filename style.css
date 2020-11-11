@@ -1288,7 +1288,9 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
     	text-align: left;
     	margin-top: 10px;
 	}
+/*--*/
 
+/*-- Coursetag Fisica 1 --*/
 	/*Cambio de colores*/
 	:root .coursetag_fisica1 {
 		--colorppal: #772C91;
