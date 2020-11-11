@@ -1143,7 +1143,10 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    flex-flow: column-reverse;
 	}
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
-    margin: 0 auto;
+    	margin: 0 auto;
+	}
+	.content_type_clase_majesticdemo #actividad .content .header .title {
+    	padding: 15px 28px;
 	}
 	}
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
