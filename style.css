@@ -1,10 +1,15 @@
 /* Fonts */
 
+/* Lista de colores*/
+
+:root {
+	--colorppal: #923538;
+}
 
 /* General */
 
 #indice .units ul li {
-    background: #923538;
+    background: var(--colorppal);
     -webkit-border-radius: 18px;
     -moz-border-radius: 18px;
     border-radius: 0;
@@ -24,25 +29,25 @@
 
 body:not(.isTablet) #indice .units ul li:not(.disabled) a:hover .title, 
 body:not(.isTablet) #indice .units ul li.active:not(.disabled) a .title {
-    color: #923538;
+    color: var(--colorppal);
 }
 
 #indice .units ul li.active:not(.disabled), 
 body:not(.isTablet) #indice .units ul li:hover:not(.disabled), 
 #indice .units ul li:focus:not(.disabled) {
     background: transparent;
-    border: 2px solid #923538;
+    border: 2px solid var(--colorppal);
 }
 
 a:hover, a:active, a:focus {
     outline: 0;
-    color: #923538;
+    color: var(--colorppal);
     text-decoration: none;
 }
 
 .btn-primary, .btn-primary.disabled {
 	color: #fff;
-    background-color: #923538;
+    background-color: var(--colorppal);
     border-color: transparent;
     opacity: 1;
     border-radius: 0;
@@ -97,21 +102,9 @@ a:hover, a:active, a:focus {
 
 	.content_type_clase_majesticdemo #actividad .content .header .title {
 		margin: 0px 0 20px;
-		background: #923538;
+		background: var(--colorppal);
 		padding: 20px 97px;
 	}
-
-	.content_type_clase_majesticdemo #actividad .content .header .title:before {
-    content: " ";
-    background: url(imagenes/logomajestic.png);
-    padding: 55px 90px;
-    position: absolute;
-    right: 50px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: -30px;
-    display: none;
-}
 
 	.content_type_clase_majesticdemo #actividad .content .slide-concatenate .header .title {
 		display: none;
@@ -339,11 +332,11 @@ a:hover, a:active, a:focus {
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		background: #923538;
+		background: var(--colorppal);
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: #923538;
+		background: var(--colorppal);
 		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
@@ -391,7 +384,7 @@ a:hover, a:active, a:focus {
 
 .btn-danger, .btn-danger[disabled] {
     color: #fff;
-    background-color: #923538;
+    background-color: var(--colorppal);
     border-color: transparent;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -463,7 +456,7 @@ a:hover, a:active, a:focus {
     height: 35px;
     font-weight: 700;
     color: #fff;
-    background-color: #923538;
+    background-color: var(--colorppal);
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
@@ -783,7 +776,7 @@ a:hover, a:active, a:focus {
        -moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
     		box-shadow: inset 0 0px 0px rgba(0,0,0,0.075);
     border: 0px solid #ccc;
-    border-bottom: 2px solid #923538;
+    border-bottom: 2px solid var(--colorppal);
     -webkit-border-radius: 0px;
        -moz-border-radius: 0px;
     		border-radius: 0px;
@@ -810,7 +803,7 @@ a:hover, a:active, a:focus {
 #actividad .workspace.matching .opciones .opcion:not(.ko):not(.ok),
 #actividad .workspace.ordenar .js-rank-item {
     border-width: 2px;
-    border-color: #923538;
+    border-color: var(--colorppal);
     border-style: solid;
     background: #fff;
 }
@@ -828,7 +821,7 @@ a:hover, a:active, a:focus {
 }
 
 #actividad .workspace.clasificar .clasificar_conjuntos .conjunto .group-box {
-    border: 2px solid #923538;
+    border: 2px solid var(--colorppal);
     padding-top: 10px;
 }
 
@@ -897,6 +890,266 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
     font-weight: bold;
     font-size: 1.3rem;
 }
+/*--------------------------------------------------------------------------*/
+/* -------------------- COURSETAGS ---------------------------------------- */
+/*--------------------------------------------------------------------------*/
 
-/* ---- COURSETAGS ---- */
+/*---- coursetag_plusfactor1 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor1 {
+		--colorppal: #E95F44
+	}
+	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor2 .shortanswer-container input:focus, 
+	.coursetag_plusfactor2 .shortanswer-container .preview:focus
+	.coursetag_plusfactor2 .form-control:focus,
+	.coursetag_plusfactor2 .form-control:focus-within {
+	    border-top-color: #E95F44a1;
+	    border-right-color: #E95F44a1;
+	    border-bottom-color: #E95F44a1;
+	    border-left-color: #E95F44a1;
+	}
 
+	/* Cambios en el logo */
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Plus_Factor_1.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*---*/
+
+/*---- coursetag_plusfactor2 ------*/
+/*Cambio de colores*/
+	:root .coursetag_plusfactor2 {
+		--colorppal: #98c1da
+	}
+	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor2 .shortanswer-container input:focus, 
+	.coursetag_plusfactor2 .shortanswer-container .preview:focus
+	.coursetag_plusfactor2 .form-control:focus,
+	.coursetag_plusfactor2 .form-control:focus-within {
+	    border-top-color: #98c1daa1;
+	    border-right-color: #98c1daa1;
+	    border-bottom-color: #98c1daa1;
+	    border-left-color: #98c1daa1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Plus_Factor_2.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*--*/
+
+/*---- coursetag_plusfactor3 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor3 {
+		--colorppal: #6ECD85
+	}
+	.coursetag_plusfactor3 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor3 .shortanswer-container input:focus, 
+	.coursetag_plusfactor3 .shortanswer-container .preview:focus
+	.coursetag_plusfactor3 .form-control:focus,
+	.coursetag_plusfactor3 .form-control:focus-within {
+	    border-top-color: #6ECD85a1;
+	    border-right-color: #6ECD85a1;
+	    border-bottom-color: #6ECD85a1;
+	    border-left-color: #6ECD85a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Plus_Factor_3.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*--*/
+
+/*---- coursetag_plusfactor4 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor4 {
+		--colorppal: #03467F
+	}
+	.coursetag_plusfactor4 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor4 .shortanswer-container input:focus, 
+	.coursetag_plusfactor4 .shortanswer-container .preview:focus
+	.coursetag_plusfactor4 .form-control:focus,
+	.coursetag_plusfactor4 .form-control:focus-within {
+	    border-top-color: #03467Fa1;
+	    border-right-color: #03467Fa1;
+	    border-bottom-color: #03467Fa1;
+	    border-left-color: #03467Fa1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Plus_Factor_4.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*--*/
+
+/*---- coursetag_plusfactor5 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor5 {
+		--colorppal: #03467F
+	}
+	.coursetag_plusfactor5 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor5 .shortanswer-container input:focus, 
+	.coursetag_plusfactor5 .shortanswer-container .preview:focus
+	.coursetag_plusfactor5 .form-control:focus,
+	.coursetag_plusfactor5 .form-control:focus-within {
+	    border-top-color: #03467Fa1;
+	    border-right-color: #03467Fa1;
+	    border-bottom-color: #03467Fa1;
+	    border-left-color: #03467Fa1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Plus_Factor_5.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*--*/
+
+
+/*---- coursetag_plusfactor6 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_plusfactor6 {
+		--colorppal: #E30B14
+	}
+	.coursetag_plusfactor6 .shortanswer-container textarea:focus, 
+	.coursetag_plusfactor6 .shortanswer-container input:focus, 
+	.coursetag_plusfactor6 .shortanswer-container .preview:focus
+	.coursetag_plusfactor6 .form-control:focus,
+	.coursetag_plusfactor6 .form-control:focus-within {
+	    border-top-color: #E30B14a1;
+	    border-right-color: #E30B14a1;
+	    border-bottom-color: #E30B14a1;
+	    border-left-color: #E30B14a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Plus_Factor_6.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*--*/
+
+/*---- coursetag_englishaware1 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware1 {
+		--colorppal: #D2232B
+	}
+	.coursetag_englishaware1 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware1 .shortanswer-container input:focus, 
+	.coursetag_englishaware1 .shortanswer-container .preview:focus
+	.coursetag_englishaware1 .form-control:focus,
+	.coursetag_englishaware1 .form-control:focus-within {
+	    border-top-color: #D2232Ba1;
+	    border-right-color: #D2232Ba1;
+	    border-bottom-color: #D2232Ba1;
+	    border-left-color: #D2232Ba1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Cenefas_EA_1_6_01.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*--*/
