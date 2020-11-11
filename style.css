@@ -893,7 +893,40 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*--------------------------------------------------------------------------*/
 /* -------------------- COURSETAGS ---------------------------------------- */
 /*--------------------------------------------------------------------------*/
-
+/*----- Cambios GENERICOS en los logos para todos los PLUS FACTOR. Luego en cada uno se especifica la imagen ----*/
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    content: " ";
+	    background: url(imagenes/Plus_Factor_1.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 0;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    padding: 45px 70px;
+	}
+	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
 /*---- coursetag_plusfactor1 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor1 {
@@ -911,23 +944,9 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	/* Cambios en el logo */
-	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	}
 	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    content: " ";
-	    background: url(imagenes/Plus_Factor_1.png);
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    order: 0;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 45px 70px;
-	}
-	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+	    background-image: url(imagenes/Plus_Factor_1.png);
 	}
 /*---*/
 
@@ -948,23 +967,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	/* Cambios en el logo */
-	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	}
 	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    content: " ";
-	    background: url(imagenes/Plus_Factor_2.png);
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    order: 0;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 45px 70px;
-	}
-	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+	    background-image: url(imagenes/Plus_Factor_2.png);
 	}
 /*--*/
 
@@ -985,23 +989,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	/* Cambios en el logo */
-	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	}
 	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    content: " ";
-	    background: url(imagenes/Plus_Factor_3.png);
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    order: 0;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 45px 70px;
-	}
-	.coursetag_plusfactor3.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+	    background-image: url(imagenes/Plus_Factor_3.png);
 	}
 /*--*/
 
@@ -1022,23 +1011,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	/* Cambios en el logo */
-	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	}
 	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    content: " ";
-	    background: url(imagenes/Plus_Factor_4.png);
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    order: 0;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 45px 70px;
-	}
-	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+	    background-image: url(imagenes/Plus_Factor_4.png);
 	}
 /*--*/
 
@@ -1059,26 +1033,10 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	/* Cambios en el logo */
-	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	}
 	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    content: " ";
-	    background: url(imagenes/Plus_Factor_5.png);
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    order: 0;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 45px 70px;
-	}
-	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+	    background-image: url(imagenes/Plus_Factor_5.png);
 	}
 /*--*/
-
 
 /*---- coursetag_plusfactor6 ------*/
 	/*Cambio de colores*/
@@ -1097,23 +1055,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 
 	/* Cambios en el logo */
-	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	}
 	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    content: " ";
-	    background: url(imagenes/Plus_Factor_6.png);
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    order: 0;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 45px 70px;
-	}
-	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+	    background-image: url(imagenes/Plus_Factor_6.png);
 	}
 /*--*/
 /*---- Cambios para todas las coursetag de English Aware ---*/
@@ -1312,3 +1255,5 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    background-image: url(imagenes/Cenefas_EA_1_6_1_06.png);
 	}
 /*--*/
+
+/* */
