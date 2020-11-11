@@ -1102,7 +1102,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before,
 	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
 		content: " ";
-	    background: url(imagenes/Cenefas_EA_1_6_01.png) center center;
+	    background-position: center;
 	    background-size: contain;
 	    background-repeat: no-repeat;
 	    order: 2;
