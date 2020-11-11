@@ -1019,17 +1019,17 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor5 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor5 {
-		--colorppal: #03467F;
+		--colorppal: #009CA5;
 	}
 	.coursetag_plusfactor5 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor5 .shortanswer-container input:focus, 
 	.coursetag_plusfactor5 .shortanswer-container .preview:focus
 	.coursetag_plusfactor5 .form-control:focus,
 	.coursetag_plusfactor5 .form-control:focus-within {
-	    border-top-color: #03467Fa1;
-	    border-right-color: #03467Fa1;
-	    border-bottom-color: #03467Fa1;
-	    border-left-color: #03467Fa1;
+	    border-top-color: #009CA5a1;
+	    border-right-color: #009CA5a1;
+	    border-bottom-color: #009CA5a1;
+	    border-left-color: #009CA5a1;
 	}
 
 	/* Cambios en el logo */
