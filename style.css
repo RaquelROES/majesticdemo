@@ -890,6 +890,23 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
     font-weight: bold;
     font-size: 1.3rem;
 }
+
+/* MEDIA QUERY */
+@media (max-width: 579px) {
+	.body_clase #actividad .carousel-inner .item-container {
+	    margin-top: 0;
+	}
+}
+@media (max-width: 767px) {
+	.navbar-bottom {
+	    padding-left: 1em;
+	    padding-right: 1em;
+	    min-height: 43px;
+	}
+	.content_type_clase_majesticdemo #actividad .content .header .title {
+		padding: 20px 20px;
+	}
+}
 /*--------------------------------------------------------------------------*/
 /* -------------------- COURSETAGS ---------------------------------------- */
 /*--------------------------------------------------------------------------*/
@@ -901,6 +918,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title,
 	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title {
 	    display: flex;
+	    min-height: 90px;
 	}
 	.coursetag_plusfactor1.content_type_clase_majesticdemo #actividad .content .header .title:before,
 	.coursetag_plusfactor2.content_type_clase_majesticdemo #actividad .content .header .title:before,
@@ -925,6 +943,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
 	    margin-left: 54px;
 	    text-align: center;
+	    margin-top: 0
 	}
 /*---- coursetag_plusfactor1 ------*/
 	/*Cambio de colores*/
