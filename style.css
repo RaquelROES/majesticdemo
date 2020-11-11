@@ -909,7 +909,6 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title:before,
 	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    content: " ";
-	    background: url(imagenes/Plus_Factor_1.png);
 	    background-size: contain;
 	    background-repeat: no-repeat;
 	    order: 0;
@@ -1108,7 +1107,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    order: 2;
 	    position: relative;
 	    width: 352px;
-	    height: auto;
+	    height: 60px;
 	    padding: 0;
 	}
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title h3,
