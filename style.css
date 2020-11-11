@@ -1137,16 +1137,25 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title {
 	    display: flex;
 	}
+	@media (max-width: 750px) {
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	    flex-flow: column-reverse;
+	}
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    content: " ";
-	    background: url(imagenes/Cenefas_EA_1_6_01.png);
+    margin: 0 auto;
+	}
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+		content: " ";
+	    background: url(imagenes/Cenefas_EA_1_6_01.png) center center;
 	    background-size: contain;
 	    background-repeat: no-repeat;
-	    order: 0;
-	    position: absolute;
-	    top: 0;
-	    left: 0;
-	    padding: 45px 70px;
+	    order: 2;
+	    position: relative;
+	    width: 352px;
+	    height: auto;
+	    padding: 0;
 	}
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
 	    margin-left: 54px;
