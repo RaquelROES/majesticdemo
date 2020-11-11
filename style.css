@@ -97,7 +97,7 @@ a:hover, a:active, a:focus {
 
 	.content_type_clase_majesticdemo #actividad .content .header .title {
 		margin: 0px 0 20px;
-		background: transparent;
+		background: #923538;
 		padding: 20px 97px;
 	}
 
@@ -110,6 +110,7 @@ a:hover, a:active, a:focus {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: -30px;
+    display: none;
 }
 
 	.content_type_clase_majesticdemo #actividad .content .slide-concatenate .header .title {
@@ -124,7 +125,7 @@ a:hover, a:active, a:focus {
     margin-top: 20px;
     padding: 0;
     padding-bottom: 3px;
-    color: #333;
+    color: #fff;
     font-size: 2.4rem;
     font-weight: 700;
     text-align: left;
@@ -154,6 +155,7 @@ a:hover, a:active, a:focus {
 
 	#actividad .class_slide {
     	padding: 40px 0 0;
+    	padding-top: 0;
 	}
 
 	#actividad .class_slide:last-of-type {
@@ -261,16 +263,16 @@ a:hover, a:active, a:focus {
 	.logo-publisher {
 	display: inline-block;
     position: absolute;
-    top: 0;
+    top: 4px;
     left: 40px;
-    width: 110px;
-    height: 45px;
-    background: url(imagenes/logomajestic.png) 0 0 no-repeat;
+    width: 300px;
+    height: 37px;
+    background: url(imagenes/Logo_Magestic_Digital.png) 0 0 no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
     background-size: contain;
-    background-position: center center;
+    background-position: left;
 	}
 
 	@media only screen and (max-width: 640px) {
@@ -895,3 +897,6 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
     font-weight: bold;
     font-size: 1.3rem;
 }
+
+/* ---- COURSETAGS ---- */
+
