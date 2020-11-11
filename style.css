@@ -897,7 +897,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor1 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor1 {
-		--colorppal: #E95F44
+		--colorppal: #E95F44;
 	}
 	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor2 .shortanswer-container input:focus, 
@@ -934,7 +934,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor2 ------*/
 /*Cambio de colores*/
 	:root .coursetag_plusfactor2 {
-		--colorppal: #98c1da
+		--colorppal: #98c1da;
 	}
 	.coursetag_plusfactor2 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor2 .shortanswer-container input:focus, 
@@ -971,7 +971,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor3 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor3 {
-		--colorppal: #6ECD85
+		--colorppal: #6ECD85;
 	}
 	.coursetag_plusfactor3 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor3 .shortanswer-container input:focus, 
@@ -1008,7 +1008,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor4 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor4 {
-		--colorppal: #03467F
+		--colorppal: #03467F;
 	}
 	.coursetag_plusfactor4 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor4 .shortanswer-container input:focus, 
@@ -1045,7 +1045,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor5 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor5 {
-		--colorppal: #03467F
+		--colorppal: #03467F;
 	}
 	.coursetag_plusfactor5 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor5 .shortanswer-container input:focus, 
@@ -1083,7 +1083,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 /*---- coursetag_plusfactor6 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor6 {
-		--colorppal: #E30B14
+		--colorppal: #E30B14;
 	}
 	.coursetag_plusfactor6 .shortanswer-container textarea:focus, 
 	.coursetag_plusfactor6 .shortanswer-container input:focus, 
@@ -1116,11 +1116,74 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    text-align: center;
 	}
 /*--*/
+/*---- Cambios para todas las coursetag de English Aware ---*/
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	}
+	@media (max-width: 750px) {
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title {
+	    display: flex;
+	    flex-flow: column-reverse;
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+    	margin: 0 auto;
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title, 
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title {
+    	padding: 15px 28px;
+	}
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+		content: " ";
+	    background: url(imagenes/Cenefas_EA_1_6_01.png) center center;
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    order: 2;
+	    position: relative;
+	    width: 352px;
+	    height: auto;
+	    padding: 0;
+	}
+	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	    margin-left: 54px;
+	    text-align: center;
+	}
+/*--*/
 
 /*---- coursetag_englishaware1 ------*/
+
 	/*Cambio de colores*/
 	:root .coursetag_englishaware1 {
-		--colorppal: #D2232B
+		--colorppal: #D2232B;
 	}
 	.coursetag_englishaware1 .shortanswer-container textarea:focus, 
 	.coursetag_englishaware1 .shortanswer-container input:focus, 
@@ -1133,35 +1196,118 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    border-left-color: #D2232Ba1;
 	}
 
-	/* Cambios en el logo */
-	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	}
-	@media (max-width: 750px) {
-	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title {
-	    display: flex;
-	    flex-flow: column-reverse;
-	}
+	/* Cambios en el logo*/
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
-    	margin: 0 auto;
-	}
-	.content_type_clase_majesticdemo #actividad .content .header .title {
-    	padding: 15px 28px;
-	}
-	}
-	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title:before {
-		content: " ";
 	    background: url(imagenes/Cenefas_EA_1_6_01.png) center center;
-	    background-size: contain;
-	    background-repeat: no-repeat;
-	    order: 2;
-	    position: relative;
-	    width: 352px;
-	    height: auto;
-	    padding: 0;
 	}
-	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
-	    text-align: center;
+/*--*/
+
+/*---- coursetag_englishaware2 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware2 {
+		--colorppal: #00ADEE;
+	}
+	.coursetag_englishaware2 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware2 .shortanswer-container input:focus, 
+	.coursetag_englishaware2 .shortanswer-container .preview:focus
+	.coursetag_englishaware2 .form-control:focus,
+	.coursetag_englishaware2 .form-control:focus-within {
+	    border-top-color: #00ADEEa1;
+	    border-right-color: #00ADEEa1;
+	    border-bottom-color: #00ADEEa1;
+	    border-left-color: #00ADEEa1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background: url(imagenes/Cenefas_EA_1_6_02.png) center center;
+	}
+/*--*/
+
+/*---- coursetag_englishaware3 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware3 {
+		--colorppal: #00AB4D;
+	}
+	.coursetag_englishaware3 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware3 .shortanswer-container input:focus, 
+	.coursetag_englishaware3 .shortanswer-container .preview:focus
+	.coursetag_englishaware3 .form-control:focus,
+	.coursetag_englishaware3 .form-control:focus-within {
+	    border-top-color: #00AB4Da1;
+	    border-right-color: #00AB4Da1;
+	    border-bottom-color: #00AB4Da1;
+	    border-left-color: #00AB4Da1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware3.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background: url(imagenes/Cenefas_EA_1_6_1_03.png) center center;
+	}
+/*--*/
+
+/*---- coursetag_englishaware4 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware4 {
+		--colorppal: #FEB811;
+	}
+	.coursetag_englishaware4 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware4 .shortanswer-container input:focus, 
+	.coursetag_englishaware4 .shortanswer-container .preview:focus
+	.coursetag_englishaware4 .form-control:focus,
+	.coursetag_englishaware4 .form-control:focus-within {
+	    border-top-color: #FEB811a1;
+	    border-right-color: #FEB811a1;
+	    border-bottom-color: #FEB811a1;
+	    border-left-color: #FEB811a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background: url(imagenes/Cenefas_EA_1_6_1_04.png) center center;
+	}
+/*--*/
+
+/*---- coursetag_englishaware5 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware5 {
+		--colorppal: #922790;
+	}
+	.coursetag_englishaware5 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware5 .shortanswer-container input:focus, 
+	.coursetag_englishaware5 .shortanswer-container .preview:focus
+	.coursetag_englishaware5 .form-control:focus,
+	.coursetag_englishaware5 .form-control:focus-within {
+	    border-top-color: #922790a1;
+	    border-right-color: #922790a1;
+	    border-bottom-color: #922790a1;
+	    border-left-color: #922790a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware5.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background: url(imagenes/Cenefas_EA_1_6_1_05.png) center center;
+	}
+/*--*/
+
+/*---- coursetag_englishaware6 ------*/
+	/*Cambio de colores*/
+	:root .coursetag_englishaware6 {
+		--colorppal: #E50069;
+	}
+	.coursetag_englishaware6 .shortanswer-container textarea:focus, 
+	.coursetag_englishaware6 .shortanswer-container input:focus, 
+	.coursetag_englishaware6 .shortanswer-container .preview:focus
+	.coursetag_englishaware6 .form-control:focus,
+	.coursetag_englishaware6 .form-control:focus-within {
+	    border-top-color: #E50069a1;
+	    border-right-color: #E50069a1;
+	    border-bottom-color: #E50069a1;
+	    border-left-color: #E50069a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background: url(imagenes/Cenefas_EA_1_6_1_06.png) center center;
 	}
 /*--*/
