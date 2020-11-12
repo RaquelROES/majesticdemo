@@ -332,11 +332,11 @@ a:hover, a:active, a:focus {
 		text-indent: initial;
 	}
 	#bottom-navigator li:hover {
-		background: var(--colorppal);
+		background: #923538;
 		color: transparent;
 	}
 	#bottom-navigator li.active {
-		background: var(--colorppal);
+		background: #923538;
 		color: transparent;
 	}
 	#bottom-navigator.show_left:before {
