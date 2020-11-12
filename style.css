@@ -74,7 +74,7 @@ a:hover, a:active, a:focus {
 
 	#actividad .carousel-inner .item-container {
 		background-image: none;
-		margin: 0px auto 0px;
+		margin: 20px auto 20px;
 		padding: 0px;
 		padding-bottom: 90px;
 		position: relative;
