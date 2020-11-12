@@ -1289,11 +1289,29 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 
 /* --- Coursetag materias troncales ---*/
 /*---- Cambios para todas las coursetag de English Aware ---*/
-	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title {
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_lecturaoralyescrita.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title,
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title {
 	    display: flex;
 	}
 	
-	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_lecturaoralyescrita.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
 		content: " ";
 	    background-position: center;
 	    background-size: contain;
@@ -1304,23 +1322,57 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	    height: 60px;
 	    padding: 0;
 	}
-	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_lecturaoralyescrita.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
 		margin-left: 0;
     	text-align: left;
     	margin-top: 10px;
 	}
 	@media (max-width: 750px) {
-		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title {
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_lecturaoralyescrita.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title,
+		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title {
 		    display: flex;
 		    flex-flow: column-reverse;
+		    padding: 15px 28px;
 		}
-		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_lecturaoralyescrita.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before,
+		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    	margin: 0 auto;
 		}
-		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title {
-	    	padding: 15px 28px;
-		}
-		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3 {
+		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_lecturaoralyescrita.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title h3,
+		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
 			text-align: center;
 			border-top: 2px solid;
    		 	padding-top: 10px;
