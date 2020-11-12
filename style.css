@@ -941,10 +941,11 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor4.content_type_clase_majesticdemo #actividad .content .header .title h3,
 	.coursetag_plusfactor5.content_type_clase_majesticdemo #actividad .content .header .title h3,
 	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-	    margin-left: 54px;
+	    margin-left: 117px;
 	    text-align: center;
-	    margin-top: 0
+	    margin-top: 8px;
 	}
+
 /*---- coursetag_plusfactor1 ------*/
 	/*Cambio de colores*/
 	:root .coursetag_plusfactor1 {
