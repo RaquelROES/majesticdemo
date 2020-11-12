@@ -1361,7 +1361,8 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before,
 		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before,
 		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
-	    	margin: 0 auto;
+	    	    margin: -10px auto;
+    			width: 200px;
 		}
 		.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title h3,
 		.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title h3,
@@ -1373,9 +1374,10 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title h3,
 		.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title h3,
 		.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title h3 {
-			text-align: center;
-			border-top: 2px solid;
-   		 	padding-top: 10px;
+		    text-align: center;
+		    border-top: 2px solid;
+		    padding-top: 4px;
+		    margin-top: 8px;
 		}
 	}
 /*--*/
