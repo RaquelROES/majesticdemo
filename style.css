@@ -74,7 +74,7 @@ a:hover, a:active, a:focus {
 
 	#actividad .carousel-inner .item-container {
 		background-image: none;
-		margin: 20px auto 30px;
+		margin: 0px auto 0px;
 		padding: 0px;
 		padding-bottom: 90px;
 		position: relative;
@@ -1327,7 +1327,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	}
 /*--*/
 
-/*-- Coursetag Fisica 1 --*/
+/*-- coursetag_fisica1 --*/
 	/*Cambio de colores*/
 	:root .coursetag_fisica1 {
 		--colorppal: #772C91;
@@ -1347,3 +1347,204 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_fisica1.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Fisica_1.png);
 	}
+/*--*/
+
+/*-- coursetag_quimica2 --*/
+	/*Cambio de colores*/
+	:root .coursetag_quimica2 {
+		--colorppal: #85103B;
+	}
+	.coursetag_quimica2 .shortanswer-container textarea:focus, 
+	.coursetag_quimica2 .shortanswer-container input:focus, 
+	.coursetag_quimica2 .shortanswer-container .preview:focus
+	.coursetag_quimica2 .form-control:focus,
+	.coursetag_quimica2 .form-control:focus-within {
+	    border-top-color: #85103Ba1;
+	    border-right-color: #85103Ba1;
+	    border-bottom-color: #85103Ba1;
+	    border-left-color: #85103Ba1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_quimica2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Quimica_2.png);
+	}
+/*--*/
+
+/*-- coursetag_ecologia --*/
+	/*Cambio de colores*/
+	:root .coursetag_ecologia {
+		--colorppal: #007C37;
+	}
+	.coursetag_ecologia .shortanswer-container textarea:focus, 
+	.coursetag_ecologia .shortanswer-container input:focus, 
+	.coursetag_ecologia .shortanswer-container .preview:focus
+	.coursetag_ecologia .form-control:focus,
+	.coursetag_ecologia .form-control:focus-within {
+	    border-top-color: #007C37a1;
+	    border-right-color: #007C37a1;
+	    border-bottom-color: #007C37a1;
+	    border-left-color: #007C37a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_ecologia.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Ecologia.png);
+	}
+/*--*/
+
+/*-- coursetag_geotrigo --*/
+	/*Cambio de colores*/
+	:root .coursetag_geotrigo {
+		--colorppal: #0070B2;
+	}
+	.coursetag_geotrigo .shortanswer-container textarea:focus, 
+	.coursetag_geotrigo .shortanswer-container input:focus, 
+	.coursetag_geotrigo .shortanswer-container .preview:focus
+	.coursetag_geotrigo .form-control:focus,
+	.coursetag_geotrigo .form-control:focus-within {
+	    border-top-color: #0070B2a1;
+	    border-right-color: #0070B2a1;
+	    border-bottom-color: #0070B2a1;
+	    border-left-color: #0070B2a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_geotrigo.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Geometria_y_Trigonometria.png);
+	}
+/*--*/
+
+/*-- coursetag_lecturaoralyescrita --*/
+	/*Cambio de colores*/
+	:root .coursetag_lecturaoralyescrita {
+		--colorppal: #B0CF34;
+	}
+	.coursetag_lecturaoralyescrita .shortanswer-container textarea:focus, 
+	.coursetag_lecturaoralyescrita .shortanswer-container input:focus, 
+	.coursetag_lecturaoralyescrita .shortanswer-container .preview:focus
+	.coursetag_lecturaoralyescrita .form-control:focus,
+	.coursetag_lecturaoralyescrita .form-control:focus-within {
+	    border-top-color: #B0CF34a1;
+	    border-right-color: #B0CF34a1;
+	    border-bottom-color: #B0CF34a1;
+	    border-left-color: #B0CF34a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_lecturaoralyescrita.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Lectura_Expresion_Oral_y_Escrita_2.png);
+	}
+/*--*/
+
+/*-- coursetag_calculodif --*/
+	/*Cambio de colores*/
+	:root .coursetag_calculodif {
+		--colorppal: #85103B;
+	}
+	.coursetag_calculodif .shortanswer-container textarea:focus, 
+	.coursetag_calculodif .shortanswer-container input:focus, 
+	.coursetag_calculodif .shortanswer-container .preview:focus
+	.coursetag_calculodif .form-control:focus,
+	.coursetag_calculodif .form-control:focus-within {
+	    border-top-color: #85103Ba1;
+	    border-right-color: #85103Ba1;
+	    border-bottom-color: #85103Ba1;
+	    border-left-color: #85103Ba1;
+	}
+
+	/* Cambios en el logo */
+	/*¡¡¡ COMENTO LA CLASE PORQUE FALTA EL LOGO !!!*/
+	/*.coursetag_calculodif.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Lectura_Expresion_Oral_y_Escrita_2.png);
+	}
+	*/
+/*--*/
+
+/*-- coursetag_horizontes1 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes1 {
+		--colorppal: #4A5574;
+	}
+	.coursetag_horizontes1 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes1 .shortanswer-container input:focus, 
+	.coursetag_horizontes1 .shortanswer-container .preview:focus
+	.coursetag_horizontes1 .form-control:focus,
+	.coursetag_horizontes1 .form-control:focus-within {
+	    border-top-color: #4A5574a1;
+	    border-right-color: #4A5574a1;
+	    border-bottom-color: #4A5574a1;
+	    border-left-color: #4A5574a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes1.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_1.png);
+	}
+/*--*/
+
+/*-- coursetag_horizontes2 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes2 {
+		--colorppal: #4A5574;
+	}
+	.coursetag_horizontes2 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes2 .shortanswer-container input:focus, 
+	.coursetag_horizontes2 .shortanswer-container .preview:focus
+	.coursetag_horizontes2 .form-control:focus,
+	.coursetag_horizontes2 .form-control:focus-within {
+	    border-top-color: #4A5574a1;
+	    border-right-color: #4A5574a1;
+	    border-bottom-color: #4A5574a1;
+	    border-left-color: #4A5574a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes2.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_2.png);
+	}
+/*--*/
+
+/*-- coursetag_horizontes3 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes3 {
+		--colorppal: #72B3E3;
+	}
+	.coursetag_horizontes3 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes3 .shortanswer-container input:focus, 
+	.coursetag_horizontes3 .shortanswer-container .preview:focus
+	.coursetag_horizontes3 .form-control:focus,
+	.coursetag_horizontes3 .form-control:focus-within {
+	    border-top-color: #72B3E3a1;
+	    border-right-color: #72B3E3a1;
+	    border-bottom-color: #72B3E3a1;
+	    border-left-color: #72B3E3a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes3.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_3.png);
+	}
+/*--*/
+
+/*-- coursetag_horizontes4 --*/
+	/*Cambio de colores*/
+	:root .coursetag_horizontes4 {
+		--colorppal: #72B3E3;
+	}
+	.coursetag_horizontes4 .shortanswer-container textarea:focus, 
+	.coursetag_horizontes4 .shortanswer-container input:focus, 
+	.coursetag_horizontes4 .shortanswer-container .preview:focus
+	.coursetag_horizontes4 .form-control:focus,
+	.coursetag_horizontes4 .form-control:focus-within {
+	    border-top-color: #72B3E3a1;
+	    border-right-color: #72B3E3a1;
+	    border-bottom-color: #72B3E3a1;
+	    border-left-color: #72B3E3a1;
+	}
+
+	/* Cambios en el logo */
+	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
+	    background-image: url(imagenes/Horizontes_4.png);
+	}
+/*--*/
