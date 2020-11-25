@@ -1077,6 +1077,17 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_plusfactor6.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Plus_Factor_6.png);
 	}
+
+       /*portadillas*/
+       .coursetag_plusfactor1 #indice .unit-content .header,
+	.coursetag_plusfactor2 #indice .unit-content .header,
+	.coursetag_plusfactor3 #indice .unit-content .header,
+	.coursetag_plusfactor4 #indice .unit-content .header,
+	.coursetag_plusfactor5 #indice .unit-content .header,
+	.coursetag_plusfactor6 #indice .unit-content .header {
+	    background: var(--colorppal) !important;
+		}
+		
 /*--*/
 /*---- Cambios para todas las coursetag de English Aware ---*/
 	.coursetag_englishaware1.content_type_clase_majesticdemo #actividad .content .header .title,
@@ -1291,7 +1302,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
        	.coursetag_englishaware1 #indice .unit-content .header,
 	.coursetag_englishaware2 #indice .unit-content .header,
 	.coursetag_englishaware3 #indice .unit-content .header,
-	.coursetag_englishaware 4#indice .unit-content .header,
+	.coursetag_englishaware4 #indice .unit-content .header,
 	.coursetag_englishaware5 #indice .unit-content .header,
 	.coursetag_englishaware6 #indice .unit-content .header {
 	    background: var(--colorppal) !important;
