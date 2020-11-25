@@ -1285,6 +1285,20 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_englishaware6.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Cenefas_EA_1_6_1_06.png);
 	}
+   
+	/* Color de la portadilla*/
+
+       	.coursetag_englishaware1 #indice .unit-content .header,
+	.coursetag_englishaware2 #indice .unit-content .header,
+	.coursetag_englishaware3 #indice .unit-content .header,
+	.coursetag_englishaware 4#indice .unit-content .header,
+	.coursetag_englishaware5 #indice .unit-content .header,
+	.coursetag_englishaware6 #indice .unit-content .header {
+	    background: var(--colorppal) !important;
+	}
+
+
+
 /*--*/
 
 /* --- Coursetag materias troncales ---*/
@@ -1380,6 +1394,7 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 		    margin-top: 8px;
 		}
 	}
+
 /*--*/
 
 /*-- coursetag_fisica1 --*/
@@ -1613,5 +1628,21 @@ body.content_type_clase_majesticdemo #actividad .content .fillblanks-draggable
 	.coursetag_horizontes4.content_type_clase_majesticdemo #actividad .content .header .title:before {
 	    background-image: url(imagenes/Horizontes_4.png);
 	}
+
+/* Color de la portadilla*/
+
+       	.coursetag_fisica1 #indice .unit-content .header,
+	.coursetag_quimica2 #indice .unit-content .header,
+	.coursetag_ecologia #indice .unit-content .header,
+	.coursetag_geotrigo #indice .unit-content .header,
+	.coursetag_lecturaoralyescrita2 #indice .unit-content .header,
+	.coursetag_calculodif #indice .unit-content .header,
+	.coursetag_horizontes1 #indice .unit-content .header,
+	.coursetag_horizontes2 #indice .unit-content .header,
+	.coursetag_horizontes3 #indice .unit-content .header,
+	.coursetag_horizontes4 #indice .unit-content .header {
+		background: var(--colorppal) !important;
+		}
+		
 /*--*/
 
